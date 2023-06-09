@@ -1,1 +1,23 @@
+//What is the value of the sum
 
+//The function
+int main(){
+int sum=0;
+for(int i=2; i<=5; i++){for(int j=3;j<=6;j++)
+{sum+=i*j;}}
+return 0;
+}
+//for i=2 j will run from 3 to 6, so de addition 
+// will be (2*3)+(2*4)+(2×5)+(2×6)
+//=6+8+10+12=36
+//for i=3 j will run from 3 to 6, so de addition 
+// will be (3*3)+(3*4)+(3*5)+(3×6)
+//=9+12+15+18=54
+//for i=4 j will run from 3 to 6, so de addition 
+// will be (4*3)+(4*4)+(4*5)+(4*6)
+//=12+16+20+24=72
+//for i=5 j will run from 3 to 6, so de addition 
+// will be (5*3)+(5*4)+(5*5)+(5*6)
+//=15+20+25+30=90
+//Summing this up, 36+54+72+90=252, 
+//which would be the final value of the sum.
