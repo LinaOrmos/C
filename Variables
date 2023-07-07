@@ -2,8 +2,12 @@
 int main()
 {
 int x=100;
+float y= 7.85;
+char ch ='A';
 printf("x = %d\n",x);
 printf("Adress of x =%u\n", &x);
-
-
+printf("y= %f\n", y);
+printf("Adress of y =%u\n",&y);
+printf("ch = %c\n",ch);
+printf("Adress of ch = %u\n",&ch); 
 }
