@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int x=100;
+printf("x"= %d\n", x);
+printf("Adress of x =%u\n", &x);
+
+
+}
