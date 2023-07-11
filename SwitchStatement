@@ -58,3 +58,32 @@ int main()
         default: printf("Another value different from One, Two, Three");
     }
 }
+
+#include <stdio.h>
+
+int main()
+{
+    int a=1,b=2;
+    switch(b-a){
+        case 1: printf("One\n");
+        break;
+        case 2:printf("Two\n");
+        break;
+        case 3: printf("Three\n");
+        break;
+        default: printf("Another value different from One, Two, Three");
+    }
+}
+int main()
+{
+    int a=1,b=2;
+    switch(b-a){
+        case 1: printf("One\n");
+        
+        case 2:printf("Two\n");
+        
+        case 3: printf("Three\n");
+        
+        default: printf("Another value different from One, Two, Three");
+    }
+}
