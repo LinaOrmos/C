@@ -1,0 +1,14 @@
+//Thhis program uses the If-Else statement
+//for telling us if the number is even or Odd
+
+
+#include <stdio.h>
+
+int main()
+{
+    int n=7;
+    if(n/2 == 0)
+    printf("Even");
+    else
+    printf("odd");
+}
