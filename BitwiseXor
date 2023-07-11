@@ -1,0 +1,17 @@
+//This is an example of Bitwise Xor
+
+x  y  x^y
+0  0  0
+0  1  1
+1  0  1
+1  1  0
+//
+#include <stdio.h>
+int main(){
+    
+    int a =5;
+    int b = 3;
+    int result = a ^ b;
+    printf("result is %d\n", result);
+    return 0;
+}
