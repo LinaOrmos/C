@@ -2,3 +2,9 @@
 //is a conditional statement used to select one 
 //of several blocks of code to execute based 
 //on the value of an expression
+//Integral Type Char, short, int, long int, int
+//But you can't start with float
+//Case values must be constant expresions
+//you can't use any variables
+//unique case values, they shouldn't be duplicated
+//use a break statement
