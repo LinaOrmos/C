@@ -1,0 +1,12 @@
+// This is an example of Bitwise
+//Right shift Operator
+
+#include <stdio.h>
+int main(){
+    int x= 10;
+    printf("X before shifting: %d\n",x);
+    int z = x>>1;
+    printf("X after right shifting by 1 bit: %d\n", z);
+    return 0; 
+
+}
