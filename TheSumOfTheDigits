@@ -1,0 +1,20 @@
+//This program returns the sum of the digits
+//using the while loop
+
+#include <stdio.h>
+
+int main()
+{
+    //sum of digits in a given numer
+    int n,d,sum=0;
+    printf("Enter value of n:\n");
+    scanf("%d",&n);
+    while(n>0)
+    {
+        d= n%10;
+        sum = sum+d;
+        n = n/10;
+    }
+printf("The sum of the digits is: %d\n",sum);
+    return 0;
+}
