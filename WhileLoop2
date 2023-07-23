@@ -1,0 +1,13 @@
+/this is an example of the while loop backwards
+#include <stdio.h>
+
+int main()
+{
+    int i=5;
+    while(i>1)
+    {
+        printf("%d\t",i);
+        i--;
+    }
+    return 0;
+}
