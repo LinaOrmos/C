@@ -1,0 +1,12 @@
+//This is an example of the basic structure of the for loop
+
+#include <stdio.h>
+
+int main()
+{
+    int i;
+    for(i=1;i<=5;i++)
+    printf("%d\t",i);
+
+    return 0;
+}
