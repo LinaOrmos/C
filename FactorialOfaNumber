@@ -1,0 +1,13 @@
+//This is a basic example for calculating
+//the factorial of a number using tthe for loop
+#include <stdio.h>
+
+int main()
+{
+    int n, i,fact=1;
+    printf("Enter the value of n: \n");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    fact = fact*i;
+    printf("Factorial result is: %d\n",fact);
+}
