@@ -1,0 +1,16 @@
+//This is an example of calculating a factorial number with the while loop
+#include <stdio.h>
+
+int main()
+{
+    int n, i=1,fact=1;
+    printf("enter the value of n\n");
+    scanf("%d",&n);
+    while(i<=n)
+    {
+        fact = fact*i;
+        i++;
+    }
+    
+    printf("Factorial result is : %d\n",fact);
+}
