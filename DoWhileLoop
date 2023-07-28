@@ -1,3 +1,16 @@
 //This is an example of the main structure of the do While Loop
 //In thi example we calculate the sum  of the numbers
 // from 1 to n
+#include <stdio.h>
+
+int main()
+{
+    int i=1,n,sum=0;
+    printf("Enter the value of n: \n");
+    scanf("%d",&n);
+    do{
+        sum = sum+i;
+        i = i+1;
+    }while(i<=n);
+    printf("The result of the sum is: %d\n", sum);
+}
