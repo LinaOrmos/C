@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int distinct_c(const char* chaine){
+    int tab[256] = {0};
+    int ta = strlen(chaine);
+    for(int i=0; i < ta; i++){
+        char c = (char)chaine[i];
+        tab[c]++;
+    }
+    int res = 0;
+    for(int i = 0; i<256; i++){
+        if(tab[i]>0){
+            res++;
+        }
+    }
+    return res;
+}
+
+int lexicographic_sort(const char* a, const char* b) {
+    return strcmp(a, b);
+}
+
+int lexicographic_sort_reverse(const char* a, const char* b) {
+    return strcmp(b, a);
+}
+
+int sort_by_number_of_distinct_characters(const char* a, const char* b) {
+    if(distinct_c(a)==distinct_c(b)){
+        return lexicographic_sort(a, b);
+    }
+    return distinct_c(a)-distinct_c(b);
+}
+
+int sort_by_length(const char* a, const char* b) {
+    if(strlen(a) == strlen(b)){
+        return lexicographic_sort(a, b);
+    }
+    return strlen(a) - strlen(b);
+}
+
+void string_sort(char** arr,const int len,int (*cmp_func)(const char* a, const char* b)){
+    if(len <= 1){
+        return;
+    }
+    for(int i = 0; i < len-1; i++){
+        for(int j = i+1; j < len; j++){
+            if(cmp_func(arr[i], arr[j]) > 0){
+                char *temp = arr[j];
+                arr[j] = arr[i];
+                arr[i] = temp;
+            }
+        }
+    }
+}
+
