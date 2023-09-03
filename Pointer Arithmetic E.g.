@@ -1,0 +1,13 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+  int x=50, *p;
+  p=&x;
+  printf("La direccion de x es: %u \n",p);
+  p=p+1;//incremento en la ubicacion en memoria
+ printf("La direccion de x es: %u \n",p);
+ // el incremento es exactamente 4 
+ //porrque 4  representa 1*sizeof(int)
+    return 0;
+}
