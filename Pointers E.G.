@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int x =100;
+    char a='z';
+    int *p;
+    char *q;
+    //imprimimos el valor de la variable x
+    //utilizamos %i debido a que es un int
+    // el %d es para indicar que se imprrime el valor de una variable
+    //el \n es el salto de linea
+    printf("x=%i, su direccion de memoria = %d\n", x, &x);
+    printf("a=%c, su direccion de memoria = %d\n\n", a, &a);
+    // almacenamos la direccion de x
+    p = &x;
+    
+    printf("p=%d, su direccion de memoria = %d\n", p, &p);
+    printf("El contenido al que apunta es = %c\n\n", *p);
+    q = &a;
+    printf("q=%d, su direccion de memoria = %d\n", q, &q);
+    printf("El contenido al que apunta es = %c\n\n", *q);
+    
+    printf("Cambiamos el valor de a a traves del apuntador q\n");
+    *q='w';
+    printf("El valor que almacena la casilla al que apunta q es: %c\n\n", *q);
+    
+    
+    return 0;
+}
