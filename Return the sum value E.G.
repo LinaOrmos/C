@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int arraySum(int a[], int n) 
+{
+   int sum = 0, i;
+  //find the sum of elements in the array
+   for(i=0; i<n; i++)
+   sum = sum+a[i];
+   return sum;
+}
+int main()
+{
+    int a[10], i, n, sum;
+    printf("Enter array size: \n");
+    scanf("%d", &n);
+    printf("Enter %d elements : \n",n);
+    for(i=0; i<n;i++)
+    scanf("%d", &a[i]);
+    sum = arraySum(a,n);
+    printf("Sum of array elements is: %d \n", sum);
+    
+}
