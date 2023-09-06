@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void display(int a[], int n) 
+{
+   int i;
+   printf("Displaying array : \n");
+   for(i=0; i<n; i++)
+   printf("%d\t", a[i]);
+}
+int main()
+{
+    int a[10], i, n;
+    printf("Enter array size: \n");
+    scanf("%d", &n);
+    printf("Enter %d elements : \n",n);
+    for(i=0; i<n;i++)
+    scanf("%d", &a[i]);
+    display(a,n);
+    
+}1
