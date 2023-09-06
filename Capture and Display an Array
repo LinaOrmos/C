@@ -17,4 +17,4 @@ int main()
     scanf("%d", &a[i]);
     display(a,n);
     
-}1
+}
