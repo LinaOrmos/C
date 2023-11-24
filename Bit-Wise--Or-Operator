@@ -1,3 +1,4 @@
+//this is a code for the Bitwise operators
 #include <stdio.h>
 int main(){
     int a =5;
