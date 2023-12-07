@@ -1,3 +1,4 @@
+//this is an examples for the bitwise operators 
 #include <stdio.h>
 int main(){
     int x=10;
