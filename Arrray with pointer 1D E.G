@@ -1,3 +1,5 @@
+//This is an example of a pointer with an array 
+
 #include <stdio.h>
 
 void main() {
