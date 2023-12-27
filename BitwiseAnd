@@ -1,5 +1,6 @@
 //This is an example for the bitwise Operator and
 //compile the code for checking up the result
+
 #include <stdio.h>
 int main() {
     int a = 7;
