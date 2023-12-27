@@ -1,4 +1,5 @@
 //This is an example fot he bitwise operator Or
+
 #include <stdio.h>
 int main(){
     
