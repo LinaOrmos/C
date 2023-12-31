@@ -1,3 +1,5 @@
+/This code captures and displays a messages 
+
 #include <stdio.h>
 
 void display(int a[], int n) 
