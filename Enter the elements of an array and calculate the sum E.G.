@@ -1,3 +1,6 @@
+//This code finds the sum of the elements in an array 
+//and calculates the sum 
+
 #include <stdio.h>
 
 int arraySum(int a[], int n) 
