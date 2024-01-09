@@ -1,3 +1,5 @@
+//This code calculates the result using & 
+
 #include <stdio.h>
 int main() {
     int a = 7;
